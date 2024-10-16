@@ -1,7 +1,6 @@
 #!/bin/sh
 
 echo "run_id: $RUN_ID in $ENVIRONMENT"
-
 NOW=$(date +"%Y%m%d-%H%M%S")
 
 if [ -z "${JM_HOME}" ]; then
